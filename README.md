@@ -1,3 +1,9 @@
+## Forked to solve issues with kernel 5.4.83-v7l+, sometimes /dev/dri/by-path/platform-fec00000.v3d-card references to /dev/dri/card1 instead of /dev/dri/card0
+## Same code than original (idein/py-videocore6) but manually setting /dev/dri/by-path/platform-fec00000.v3d-card in videocore6/drm_v3d.py.
+## More info: 
+https://github.com/Idein/py-videocore6/issues/48
+https://github.com/Idein/py-videocore6/pull/49
+
 # py-videocore6
 
 A Python library for GPGPU programming on Raspberry Pi 4, which realizes
